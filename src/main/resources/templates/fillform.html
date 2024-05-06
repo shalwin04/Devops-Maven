@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New form</title>
+    </head>
+
+    <body>
+        <h2>Fill up this form</h2>
+        <form th:action="@{/getin}" method="post">
+            <label for="itemname">Item Name : </label>
+            <input id="item" type="text" name="Username"><br><br>
+            <label for="quantity">Quantity : </label>
+            <input id="qnty" type="text" name="quantity"><br><br>
+            <input type="submit" id="submission">
+        </form>
+    </body>
+</html>
